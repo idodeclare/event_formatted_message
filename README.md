@@ -4,11 +4,11 @@
 * Decorated an Event method with the following Message: "Thread:{0} TranslateToManifestConvention escaped chars (leave off \\r, \\n): % & < > ' \" \t"
 
 ## .NET 4.5.1
-* FormattedMessage is reported as "Thread:1 TranslateToManifestConvention escaped chars (leave off \r, \n): % &amp; &lt; &gt; &apos; &quot;  "
+* FormattedMessage is reported as "Thread:1 TranslateToManifestConvention escaped chars (leave off \r, \n): % &amp;amp; &amp;lt; &amp;gt; &amp;apos; &amp;quot;  "
 * "\t" has become " "
 * "%"  is "%"
 
 ## .NET 4.6.0
-* FormattedMessage is reported as ""Thread:1 TranslateToManifestConvention escaped chars (leave off \r, \n): %% &amp; &lt; &gt; &apos; &quot; %t"
+* FormattedMessage is reported as ""Thread:1 TranslateToManifestConvention escaped chars (leave off \r, \n): %% &amp;amp; &amp;lt; &amp;gt; &amp;apos; &amp;quot; %t"
 * "\t" has become "%t"
 * "%"  is "%%"
