@@ -1,0 +1,3 @@
+<Event MSec=  "3077.1687" PID="1372" PName=        "" TID="1196" EventName="DataAccess" ProviderName="Crimson-Mdm" FormattedMessage="Thread:1 TranslateToManifestConvention escaped chars (leave off \r, \n): % &amp; &lt; &gt; &apos; &quot;  " threadId="1"/>
+<Event MSec=  "3108.7006" PID="1372" PName=        "" TID="1196" EventName="DataAccess" ProviderName="Crimson-Mdm" FormattedMessage="Service Starting:ReindexService Thread:1" threadId="1" serviceName="ReindexService"/>
+<Event MSec=  "3109.0713" PID="1372" PName=        "" TID="6788" EventName="DataAccess" ProviderName="Crimson-Mdm" FormattedMessage="Service heartbeat Thread:5" threadId="5"/>
